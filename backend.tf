@@ -3,6 +3,6 @@ terraform {
     bucket = "mydev-project-terraform-batch-25-mitali"
     key = "main"
     region = "us-east-1"
-    dynamodb_table = "my-dynamodb-table"
+    use_lockfile = "my-dynamodb-table"
   }
 }
